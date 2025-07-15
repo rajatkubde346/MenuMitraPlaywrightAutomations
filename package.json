@@ -1,14 +1,33 @@
 {
   "name": "playwright-menumitra-automation",
   "version": "1.0.0",
-  "description": "Playwright tests for MenuMitra Admin Dashboard",
+  "description": "Playwright Test Automation with Allure Reporting",
+  "main": "index.js",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
-    "report": "playwright show-report"
+    "test:debug": "playwright test --debug",
+    "test:allure": "playwright test --reporter=allure-playwright",
+    "pretest:allure": "rimraf allure-results",
+    "posttest:allure": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report",
+    "allure:report": "npm run pretest:allure && npm run test:allure && npm run posttest:allure && npm run allure:open",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=\"Mobile Chrome\" --project=\"Mobile Safari\"",
+    "test:all": "playwright test --project=all",
+    "show-report": "playwright show-report"
   },
+  "keywords": ["playwright", "automation", "testing", "allure"],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.42.1"
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.13.0",
+    "rimraf": "^5.0.5"
   }
 }

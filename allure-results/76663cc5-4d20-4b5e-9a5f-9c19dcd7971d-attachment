@@ -1,0 +1,88 @@
+# Page snapshot
+
+```yaml
+- img
+- text: TESTING ENVIRONMENT
+- link "Prod":
+  - /url: https://user.menumitra.com/
+- complementary:
+  - img "Logo"
+  - text: ADMIN
+  - navigation:
+    - heading [level=3]
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /home
+      - listitem:
+        - link "Admins":
+          - /url: /admins
+      - listitem:
+        - link "Owners":
+          - /url: /owners
+      - listitem:
+        - link "Super Owners":
+          - /url: /super-owners
+      - listitem:
+        - link "Partners":
+          - /url: /partners
+      - listitem:
+        - link "Features":
+          - /url: /features
+      - listitem:
+        - link "Subscriptions":
+          - /url: /subscriptions
+      - listitem:
+        - link "Outlets":
+          - /url: /outlets
+      - listitem:
+        - link "Roles":
+          - /url: /roles
+      - listitem:
+        - link "Functionalities":
+          - /url: /functionalities
+      - listitem:
+        - link "Search":
+          - /url: /search
+      - listitem:
+        - link "Customers":
+          - /url: /customer
+      - listitem:
+        - link "Tickets":
+          - /url: /tickets
+      - listitem:
+        - link "Notifications":
+          - /url: /notifications
+      - listitem:
+        - link "Stats":
+          - /url: /stats
+      - listitem:
+        - link "My Profile":
+          - /url: /profile
+- banner:
+  - button
+  - link "Search":
+    - /url: /search?focus=true
+    - button "Search"
+  - button "rajat"
+- main:
+  - text: 0 Total Live Outlets 30 Total Outlets 0 Total Orders 0 Total Earning
+  - button "Reload"
+  - button "Fullscreen"
+  - link "17 Total Owners":
+    - /url: /owners
+    - heading "17" [level=4]
+    - paragraph: Total Owners
+  - link "6 Total Partners":
+    - /url: /partners
+    - heading "6" [level=4]
+    - paragraph: Total Partners
+  - link "30 Total Outlets":
+    - /url: /outlets
+    - heading "30" [level=4]
+    - paragraph: Total Outlets
+  - link "44 Total Customers":
+    - /url: /customer
+    - heading "44" [level=4]
+    - paragraph: Total Customers
+```
