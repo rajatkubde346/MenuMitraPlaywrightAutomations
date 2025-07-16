@@ -1,0 +1,144 @@
+# Page snapshot
+
+```yaml
+- img
+- text: TESTING ENVIRONMENT
+- link "Prod":
+  - /url: https://user.menumitra.com/
+- complementary:
+  - img "Logo"
+  - text: ADMIN
+  - navigation:
+    - heading [level=3]
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /home
+      - listitem:
+        - link "Admins":
+          - /url: /admins
+      - listitem:
+        - link "Owners":
+          - /url: /owners
+      - listitem:
+        - link "Super Owners":
+          - /url: /super-owners
+      - listitem:
+        - link "Partners":
+          - /url: /partners
+      - listitem:
+        - link "Features":
+          - /url: /features
+      - listitem:
+        - link "Subscriptions":
+          - /url: /subscriptions
+      - listitem:
+        - link "Outlets":
+          - /url: /outlets
+      - listitem:
+        - link "Roles":
+          - /url: /roles
+      - listitem:
+        - link "Functionalities":
+          - /url: /functionalities
+      - listitem:
+        - link "Search":
+          - /url: /search
+      - listitem:
+        - link "Customers":
+          - /url: /customer
+      - listitem:
+        - link "Tickets":
+          - /url: /tickets
+      - listitem:
+        - link "Notifications":
+          - /url: /notifications
+      - listitem:
+        - link "Stats":
+          - /url: /stats
+      - listitem:
+        - link "My Profile":
+          - /url: /profile
+- banner:
+  - button
+  - link "Search":
+    - /url: /search?focus=true
+    - button "Search"
+  - button "rajat"
+- main:
+  - list:
+    - listitem:
+      - link "Dashboard":
+        - /url: /
+    - listitem:
+      - link "Super Owners":
+        - /url: /super-owners
+        - img
+        - text: Super Owners
+    - listitem:
+      - img
+      - text: Create Super Owner
+  - button "Back"
+  - heading "Create Super Owner" [level=2]
+  - text: Name *
+  - textbox "Enter name": Rajat Kumar
+  - text: Mobile *
+  - textbox "Enter mobile number": "8908890891"
+  - text: Email
+  - textbox "Enter email address": test@gmail.com
+  - text: Aadhar Number *
+  - textbox "Enter Aadhar number": "123456789012"
+  - heading "Select Outlets" [level=3]
+  - heading "Avanti resto" [level=4]
+  - paragraph: SHINDE MALA, SHELKE PARK, SANGLI
+  - heading "Demo" [level=4]
+  - paragraph: Sangli
+  - heading "Hotel Offline" [level=4]
+  - paragraph: Pune 253df
+  - heading "Hotel Panchamiii" [level=4]
+  - paragraph: satara, maharashtra
+  - heading "Jhunka Bhakridasdas" [level=4]
+  - paragraph: dasdsadsadsadasd
+  - heading "kkkkk" [level=4]
+  - paragraph: yhyyy
+  - heading "My Outlet" [level=4]
+  - paragraph: 123 Main St
+  - heading "Outlet Demo" [level=4]
+  - paragraph: 123 Street, City
+  - heading "Outlet Demo" [level=4]
+  - paragraph: 123 Street, City
+  - heading "Outlet Paradise" [level=4]
+  - paragraph: 123 Street, City
+  - heading "Outlet Paradise" [level=4]
+  - paragraph: 123 Street, City
+  - heading "Outlet Paradise" [level=4]
+  - paragraph: 123 Street, City
+  - heading "Outlet Paradise" [level=4]
+  - paragraph: 123 Street, City
+  - heading "qwerty" [level=4]
+  - paragraph: sadsadadsa
+  - heading "Rahul Cake Shop" [level=4]
+  - paragraph: pune
+  - heading "Rajat Cake Shop" [level=4]
+  - paragraph: pune
+  - heading "Rajat Restro" [level=4]
+  - paragraph: pune
+  - heading "Santosh Cake Shop" [level=4]
+  - paragraph: pune
+  - heading "Santosh Cake Shop" [level=4]
+  - paragraph: pune
+  - heading "Santosh Offline" [level=4]
+  - paragraph: Pune
+  - heading "Sugat Cake Shop" [level=4]
+  - paragraph: pune
+  - heading "Sugatraj" [level=4]
+  - paragraph: asdsadsa
+  - heading "Sugatraj" [level=4]
+  - paragraph: dasdsadsad
+  - heading "SugatRaj Hotel" [level=4]
+  - paragraph: dsfgdfgdfgd
+  - button "Cancel"
+  - button "Create":
+    - img
+    - text: Create
+```

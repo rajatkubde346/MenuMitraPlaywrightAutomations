@@ -45,6 +45,19 @@
 //       await page.locator("//button[normalize-space()='Verify OTP']").click();
 //       const screenshot = await page.screenshot();
 //       await testInfo.attach('after-verification', { body: screenshot, contentType: 'image/png' });
+
+//       await page.locator('//span[contains(@class,"whitespace-nowrap")][normalize-space()="Super Owners"]').click();
+
+//       await page.locator('//span[normalize-space()="Create"]',{state: 'visible'}).click();
+
+//       await page.locator('//input[contains(@placeholder,"Enter name")]').fill("Rajat Kumar");
+//       await page.locator('//input[@placeholder="Enter mobile number"]').fill("8908890891");
+//       await page.locator('//input[@placeholder="Enter email address"]').fill("test@gmail.com");
+//       await page.locator('//input[@placeholder="Enter Aadhar number"]').fill("123456789012");
+//       await page.locator('//textarea[@placeholder="Enter address"]').fill("baner");
+
+//       await page.locator('//span[normalize-space()="Create"]').click();
+
 //     });
 //   });
 // });

@@ -1,0 +1,206 @@
+# Page snapshot
+
+```yaml
+- img
+- text: TESTING ENVIRONMENT
+- link "Prod":
+  - /url: https://user.menumitra.com/
+- complementary:
+  - img "Logo"
+  - text: ADMIN
+  - navigation:
+    - heading [level=3]
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /home
+      - listitem:
+        - link "Admins":
+          - /url: /admins
+      - listitem:
+        - link "Owners":
+          - /url: /owners
+      - listitem:
+        - link "Super Owners":
+          - /url: /super-owners
+      - listitem:
+        - link "Partners":
+          - /url: /partners
+      - listitem:
+        - link "Features":
+          - /url: /features
+      - listitem:
+        - link "Subscriptions":
+          - /url: /subscriptions
+      - listitem:
+        - link "Outlets":
+          - /url: /outlets
+      - listitem:
+        - link "Roles":
+          - /url: /roles
+      - listitem:
+        - link "Functionalities":
+          - /url: /functionalities
+      - listitem:
+        - link "Search":
+          - /url: /search
+      - listitem:
+        - link "Customers":
+          - /url: /customer
+      - listitem:
+        - link "Tickets":
+          - /url: /tickets
+      - listitem:
+        - link "Notifications":
+          - /url: /notifications
+      - listitem:
+        - link "Stats":
+          - /url: /stats
+      - listitem:
+        - link "My Profile":
+          - /url: /profile
+- banner:
+  - button
+  - link "Search":
+    - /url: /search?focus=true
+    - button "Search"
+  - button "rajat"
+- main:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /home
+    - listitem:
+      - link "Access Control":
+        - /url: /dashboard
+        - img
+        - text: Access Control
+    - listitem:
+      - img
+      - text: Roles
+  - button "Back"
+  - text: Roles
+  - button "Create"
+  - button "Reload data"
+  - textbox "Search roles"
+  - table:
+    - rowgroup:
+      - row "Role Actions":
+        - cell "Role":
+          - paragraph: Role
+        - cell "Actions":
+          - paragraph: Actions
+        - cell:
+          - paragraph
+        - cell:
+          - paragraph
+        - cell:
+          - paragraph
+        - cell:
+          - paragraph
+    - rowgroup:
+      - row "owner":
+        - cell "owner"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "captain":
+        - cell "captain"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "manager":
+        - cell "manager"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "waiter":
+        - cell "waiter"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "partner":
+        - cell "partner"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "chef":
+        - cell "chef"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "customer":
+        - cell "customer"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "dasdasd":
+        - cell "dasdasd"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+      - row "Test Role":
+        - cell "Test Role"
+        - cell:
+          - button "View Details"
+          - button "Edit Role"
+          - button "Delete Role"
+        - cell
+        - cell
+        - cell
+        - cell
+  - text: Show
+  - combobox:
+    - option "50" [selected]
+    - option "100"
+    - option "200"
+  - text: entries Showing 1 to 9 of 9 entries
+  - button [disabled]
+  - list:
+    - listitem:
+      - button "1"
+  - button [disabled]
+- status: Roles loaded successfully!
+- status: Login successful!
+- status: OTP sent successfully!
+```

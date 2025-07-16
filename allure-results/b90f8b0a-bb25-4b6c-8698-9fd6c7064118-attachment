@@ -1,0 +1,99 @@
+# Page snapshot
+
+```yaml
+- img
+- text: TESTING ENVIRONMENT
+- link "Prod":
+  - /url: https://user.menumitra.com/
+- complementary:
+  - img "Logo"
+  - text: ADMIN
+  - navigation:
+    - heading [level=3]
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /home
+      - listitem:
+        - link "Admins":
+          - /url: /admins
+      - listitem:
+        - link "Owners":
+          - /url: /owners
+      - listitem:
+        - link "Super Owners":
+          - /url: /super-owners
+      - listitem:
+        - link "Partners":
+          - /url: /partners
+      - listitem:
+        - link "Features":
+          - /url: /features
+      - listitem:
+        - link "Subscriptions":
+          - /url: /subscriptions
+      - listitem:
+        - link "Outlets":
+          - /url: /outlets
+      - listitem:
+        - link "Roles":
+          - /url: /roles
+      - listitem:
+        - link "Functionalities":
+          - /url: /functionalities
+      - listitem:
+        - link "Search":
+          - /url: /search
+      - listitem:
+        - link "Customers":
+          - /url: /customer
+      - listitem:
+        - link "Tickets":
+          - /url: /tickets
+      - listitem:
+        - link "Notifications":
+          - /url: /notifications
+      - listitem:
+        - link "Stats":
+          - /url: /stats
+      - listitem:
+        - link "My Profile":
+          - /url: /profile
+- banner:
+  - button
+  - link "Search":
+    - /url: /search?focus=true
+    - button "Search"
+  - button "rajat"
+- main:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /Home
+    - listitem:
+      - link "Owners":
+        - /url: /owners
+        - img
+        - text: Owners
+    - listitem:
+      - img
+      - text: Create Owner
+  - button "Back"
+  - heading "Create Owner" [level=1]
+  - button "Create" [disabled]
+  - text: "* Full Name"
+  - textbox "Enter full name": rajat kumar
+  - text: "* Mobile Number"
+  - textbox "Enter mobile number": "8908890891"
+  - text: Email Address
+  - textbox "Enter email address": test@gmail.com
+  - text: Date of Birth
+  - textbox
+  - text: "* Aadhar Number"
+  - textbox "Enter 12-digit Aadhar number"
+  - text: Address
+  - textbox "Enter address"
+  - paragraph
+- status: Owners loaded successfully!
+- status: Login successful!
+```

@@ -1,0 +1,137 @@
+# Page snapshot
+
+```yaml
+- img
+- text: TESTING ENVIRONMENT
+- link "Prod":
+  - /url: https://user.menumitra.com/
+- complementary:
+  - img "Logo"
+  - text: ADMIN
+  - navigation:
+    - heading [level=3]
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /home
+      - listitem:
+        - link "Admins":
+          - /url: /admins
+      - listitem:
+        - link "Owners":
+          - /url: /owners
+      - listitem:
+        - link "Super Owners":
+          - /url: /super-owners
+      - listitem:
+        - link "Partners":
+          - /url: /partners
+      - listitem:
+        - link "Features":
+          - /url: /features
+      - listitem:
+        - link "Subscriptions":
+          - /url: /subscriptions
+      - listitem:
+        - link "Outlets":
+          - /url: /outlets
+      - listitem:
+        - link "Roles":
+          - /url: /roles
+      - listitem:
+        - link "Functionalities":
+          - /url: /functionalities
+      - listitem:
+        - link "Search":
+          - /url: /search
+      - listitem:
+        - link "Customers":
+          - /url: /customer
+      - listitem:
+        - link "Tickets":
+          - /url: /tickets
+      - listitem:
+        - link "Notifications":
+          - /url: /notifications
+      - listitem:
+        - link "Stats":
+          - /url: /stats
+      - listitem:
+        - link "My Profile":
+          - /url: /profile
+- banner:
+  - button
+  - link "Search":
+    - /url: /search?focus=true
+    - button "Search"
+  - button "Adminnnnnnndsf"
+- main:
+  - list:
+    - listitem:
+      - link "Dashboard":
+        - /url: /
+    - listitem:
+      - link "Partners":
+        - /url: /partners
+        - img
+        - text: Partners
+    - listitem:
+      - img
+      - text: Create Partner
+  - button "Back"
+  - heading "Create Partner" [level=1]
+  - button "Create"
+  - text: "* Full Name"
+  - textbox "Enter full name": rajat
+  - text: "* Mobile Number"
+  - textbox "Enter mobile number": "8908890898"
+  - text: "* Email Address"
+  - textbox "Enter email address": test@gmail.com
+  - text: Date of Birth *
+  - textbox: 2025-07-07
+  - text: "* Aadhar Number"
+  - textbox "Enter 12-digit Aadhar number": "123456789012"
+  - text: "*Address"
+  - textbox "Enter address": baner
+  - text: "*Functionalities"
+  - checkbox "manage tests" [checked]
+  - text: manage tests
+  - checkbox "manage_split_table" [checked]
+  - text: manage_split_table
+  - checkbox "manage_join_table" [checked]
+  - text: manage_join_table
+  - checkbox "manage_reports" [checked]
+  - text: manage_reports
+  - checkbox "manage_statistics" [checked]
+  - text: manage_statistics
+  - checkbox "menu_management" [checked]
+  - text: menu_management
+  - checkbox "manage_table"
+  - text: manage_table
+  - checkbox "manage_owner"
+  - text: manage_owner
+  - checkbox "manage_partner"
+  - text: manage_partner
+  - checkbox "manage_chef"
+  - text: manage_chef
+  - checkbox "manage_manager"
+  - text: manage_manager
+  - checkbox "manage_captain"
+  - text: manage_captain
+  - checkbox "manage_waiter"
+  - text: manage_waiter
+  - checkbox "manage_supplier"
+  - text: manage_supplier
+  - checkbox "manage_inventory"
+  - text: manage_inventory
+  - checkbox "manage_staff"
+  - text: manage_staff
+  - checkbox "manage_table"
+  - text: manage_table
+  - checkbox "manage_section"
+  - text: manage_section
+  - checkbox "manage_menu_category"
+  - text: manage_menu_category
+  - checkbox "manage_menu"
+  - text: manage_menu Mobile number already exists
+```
